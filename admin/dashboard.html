@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istanbul Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <!-- PIN Authentication Screen -->
+    <div id="pin-screen" class="screen active">
+        <div class="pin-container">
+            <h2>Admin Login</h2>
+            <p>Enter 4-digit PIN</p>
+            <input type="password" id="pin-input" maxlength="4" placeholder="••••">
+            <button id="pin-submit">Login</button>
+            <p id="pin-error" class="error-msg"></p>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboard-screen" class="screen">
+        <header>
+            <h1>Istanbul Menu Admin</h1>
+            <button id="logout-btn">Logout</button>
+        </header>
+        
+        <main>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="categories">Categories</button>
+                <button class="tab-btn" data-tab="items">Menu Items</button>
+            </div>
+
+            <!-- Categories Tab -->
+            <div id="tab-categories" class="tab-content active">
+                <button class="add-btn" id="add-category-btn">+ Add Category</button>
+                <div id="categories-list" class="list-container"></div>
+            </div>
+
+            <!-- Items Tab -->
+            <div id="tab-items" class="tab-content">
+                <button class="add-btn" id="add-item-btn">+ Add Item</button>
+                <div class="filters">
+                    <select id="item-category-filter">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+                <div id="items-list" class="list-container"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Item Modal -->
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title">Edit Item</h2>
+            <form id="item-form">
+                <input type="hidden" id="item-id">
+                
+                <div class="form-group">
+                    <label>ID (unique tag)</label>
+                    <input type="text" id="item-id-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Category</label>
+                    <select id="item-category" required></select>
+                </div>
+
+                <div class="form-group">
+                    <label>Title (JSON format: {"EN": "...", "RU": "..."})</label>
+                    <textarea id="item-title" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Description (JSON format)</label>
+                    <textarea id="item-desc" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Price (USD/Number)</label>
+                    <input type="number" id="item-price" step="0.01" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Image Upload</label>
+                    <div class="image-upload-row">
+                        <input type="text" id="item-image" readonly placeholder="Firebase URL will appear here">
+                        <button type="button" id="upload-image-btn">Upload Image</button>
+                    </div>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="item-available"> Available in Kiosk
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="cancel-btn" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="save-btn">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Category Modal -->
+    <div id="category-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="cat-modal-title">Edit Category</h2>
+            <form id="category-form">
+                <input type="hidden" id="cat-original-id">
+                
+                <div class="form-group">
+                    <label>ID</label>
+                    <input type="text" id="cat-id" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Title (JSON format)</label>
+                    <textarea id="cat-title" rows="3" required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="cancel-btn" onclick="closeCategoryModal()">Cancel</button>
+                    <button type="submit" class="save-btn">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

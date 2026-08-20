@@ -11,6 +11,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const path = require('path');
+app.use('/admin', express.static(path.join(__dirname, 'admin')));
+
 // Routes
 app.use('/api/menu', menuRoutes);
 app.use('/api/categories', categoryRoutes);
