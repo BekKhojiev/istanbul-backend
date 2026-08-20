@@ -4,7 +4,7 @@ const db = require('./db');
 
 async function seed() {
   console.log('Starting seed process...');
-  const dataPath = path.join(__dirname, '../menusite/menusite_data.json');
+  const dataPath = path.join(__dirname, 'menusite_data.json');
   
   if (!fs.existsSync(dataPath)) {
     console.error('Data file not found:', dataPath);

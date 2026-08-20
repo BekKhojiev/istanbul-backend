@@ -1,0 +1,2439 @@
+{
+  "categories": {
+    "breakfast": {
+      "id": "breakfast",
+      "title": {
+        "EN": "Breakfast",
+        "RU": "Завтрак",
+        "TR": "Kahvaltı",
+        "UZ": "Nonushta"
+      },
+      "subtitle": {
+        "EN": "Morning Freshness",
+        "RU": "Утренний выбор",
+        "TR": "Sabah Keyfi",
+        "UZ": "Tonggi Tetiklik"
+      },
+      "description": {
+        "EN": "Traditional energetic breakfast platters and egg dishes.",
+        "RU": "Традиционные сытные завтраки и блюда из яиц.",
+        "TR": "Güne enerjik başlamanızı sağlayacak nefis kahvaltı çeşitleri.",
+        "UZ": "Kuningizni boshlash uchun to'yimli nonushtalar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"10\" cy=\"12\" r=\"7\"/><circle cx=\"10\" cy=\"12\" r=\"2\"/><path d=\"M15 17l5 5M7 9a3 3 0 0 1 3-3\"/></svg>"
+    },
+    "salad": {
+      "id": "salad",
+      "title": {
+        "EN": "Salads",
+        "RU": "Салаты",
+        "TR": "Salatalar",
+        "UZ": "Salatlar"
+      },
+      "subtitle": {
+        "EN": "Fresh & Green",
+        "RU": "Свежесть и зелень",
+        "TR": "Taze ve Organik",
+        "UZ": "Yangi va Yashil"
+      },
+      "description": {
+        "EN": "Crispy seasonal salads made with garden-fresh greens.",
+        "RU": "Свежие сезонные салаты из спелых овощей и зелени.",
+        "TR": "Bahçemizden taze toplanmış yeşilliklerle hazırlanan salatalar.",
+        "UZ": "Yangi ko'katlar va sabzavotlardan tayyorlangan salatlar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 12h18c0 4.5-4 8-9 8s-9-3.5-9-8z\"/><path d=\"M12 12c-1.5-2.5-1-5.5 1-7M8 12c-1-2-2.5-3-4.5-3.5M16 12c1-2 2.5-3 4.5-3.5\"/></svg>"
+    },
+    "sides": {
+      "id": "sides",
+      "title": {
+        "EN": "Sides & Appetizers",
+        "RU": "Гарниры",
+        "TR": "Garnitürler",
+        "UZ": "Garnirlar"
+      },
+      "subtitle": {
+        "EN": "Perfect Additions",
+        "RU": "Отличные дополнения",
+        "TR": "Mükemmel Eşlikçiler",
+        "UZ": "Ajoyib Qo'shimchalar"
+      },
+      "description": {
+        "EN": "Complete your meal with our delicious sides and traditional appetizers.",
+        "RU": "Дополните ваш обед нашими гарнирами и традиционными закусками.",
+        "TR": "Seçtiğiniz yemeği leziz garnitürlerimizle taçlandırın.",
+        "UZ": "Taomingizni garnirlarimiz va milliy zakuskalar bilan boyiting."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 11c0 5 4 8 9 8s9-3 9-8H3z\"/><path d=\"M12 11V19M8 11.5v7M16 11.5v7M6 7c0-2 1.5-3 3-3s3 1.5 3 3M12 7c0-2 1.5-3 3-3s3 1.5 3 3\"/></svg>"
+    },
+    "soups": {
+      "id": "soups",
+      "title": {
+        "EN": "Soups",
+        "RU": "Супы",
+        "TR": "Çorbalar",
+        "UZ": "Sho'rvalar"
+      },
+      "subtitle": {
+        "EN": "Warm & Comforting",
+        "RU": "Теплые и сытные",
+        "TR": "Sıcak ve Rahatlatıcı",
+        "UZ": "Mazali Sho'rvalar"
+      },
+      "description": {
+        "EN": "Aromatic warm soups brewed freshly every single morning.",
+        "RU": "Ароматные сытные супы, свежесваренные каждое утро.",
+        "TR": "Her sabah taptaze malzemelerle hazırlanan çorbalar.",
+        "UZ": "Har kuni ertalab eng sara masalliqlardan pishiriladigan sho'rvalar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 13h20c0 4.5-4.5 7-10 7S2 17.5 2 13z\"/><path d=\"M12 3v4M8 4.5v2.5M16 4.5v2.5M5 10c0-1.5 1.5-2 1.5-2s1.5 .5 1.5 2M11 10c0-1.5 1.5-2 1.5-2s1.5 .5 1.5 2M17 10c0-1.5 1.5-2 1.5-2s1.5 .5 1.5 2\"/></svg>"
+    },
+    "meat": {
+      "id": "meat",
+      "title": {
+        "EN": "Main Courses",
+        "RU": "Вторые Блюда",
+        "TR": "Ana Yemekler",
+        "UZ": "Asosiy taomlar"
+      },
+      "subtitle": {
+        "EN": "Classic Hot Platters",
+        "RU": "Классические горячие блюда",
+        "TR": "Geleneksel Sıcak Yemekler",
+        "UZ": "Milliy Issiq Taomlar"
+      },
+      "description": {
+        "EN": "Delicious slow-cooked and pan-seared premium hot dishes.",
+        "RU": "Нежнейшее томленое мясо и вторые блюда по старинным рецептам.",
+        "TR": "Özel marine edilmiş geleneksel sıcak et ve tavuk yemeklerimiz.",
+        "UZ": "Pechda dimlangan va olovda pishirilgan issiq go'shtli milliy taomlar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 17h20v2H2z\"/><path d=\"M4 17A8 8 0 0 1 20 17H4z\"/><circle cx=\"12\" cy=\"8\" r=\"1.5\"/></svg>"
+    },
+    "kebaps": {
+      "id": "kebaps",
+      "title": {
+        "EN": "Grilled Dishes",
+        "RU": "Блюда на Мангале",
+        "TR": "Mangal Izgaraları",
+        "UZ": "Kaboblar"
+      },
+      "subtitle": {
+        "EN": "Hardwood Charcoal Grill",
+        "RU": "На древесных углях",
+        "TR": "Kömür Ateşinden",
+        "UZ": "Ko'mir Taftida"
+      },
+      "description": {
+        "EN": "Authentic Turkish kebabs grilled over natural hardwood charcoal.",
+        "RU": "Настоящие турецкие кебабы и шашлыки, приготовленные на мангале.",
+        "TR": "Doğal kömür ateşinde pişen, lezzetiyle efsaneleşmiş kebaplar.",
+        "UZ": "Haqiqiy turkcha kaboblar va shashliklar, ko'mir taftida tayyorlangan."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20L20 4M2 22l3-3M19 5l3-3M8 16l2-2M11 13l2-2M14 10l2-2M8 18L18 8M6 20l3-3M15 11l3-3\"/></svg>"
+    },
+    "steak": {
+      "id": "steak",
+      "title": {
+        "EN": "Steaks",
+        "RU": "Стейк",
+        "TR": "Biftekler",
+        "UZ": "Steyklar"
+      },
+      "subtitle": {
+        "EN": "Premium Steak Cuts",
+        "RU": "Премиальные стейки",
+        "TR": "Premium Dilimler",
+        "UZ": "Premium Bo'laklar"
+      },
+      "description": {
+        "EN": "Dry-aged marbled beef steaks, grilled to perfection.",
+        "RU": "Сочные стейки из мраморной говядины сухого вызревания.",
+        "TR": "Özel olarak dinlendirilmiş, mermer dokulu premium steak çeşitleri.",
+        "UZ": "Maxsus pishirilgan yumshoq va sersuv go'shtli steyklar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15 5c-3 0-6 2-8 4s-3 5-3 8c0 1 1 2 2 2h8c4 0 7-3 7-7s-3-7-6-7z\"/><circle cx=\"14\" cy=\"10\" r=\"1.5\"/><path d=\"M8 14c1 .5 2 .5 3 0\"/></svg>"
+    },
+    "mega_platters": {
+      "id": "mega_platters",
+      "title": {
+        "EN": "Mega Platters",
+        "RU": "Мега Блюда",
+        "TR": "Mega Izgaralar",
+        "UZ": "Mega taomlar"
+      },
+      "subtitle": {
+        "EN": "Feast For Groups",
+        "RU": "Для больших компаний",
+        "TR": "Grup Paylaşımlı",
+        "UZ": "Katta Davralar Uchun"
+      },
+      "description": {
+        "EN": "Grand shared platters fit for kings, designed for family and groups.",
+        "RU": "Роскошные подносы-ассорти для больших компаний и семейных застолий.",
+        "TR": "Kalabalık sofralar için hazırlanmış zengin paylaşımlı mega menülerimiz.",
+        "UZ": "Katta guruhlar va oilaviy yig'ilishlar uchun shohona podnos-assorti."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"8\" cy=\"8\" r=\"1.2\"/><circle cx=\"16\" cy=\"8\" r=\"1.2\"/><circle cx=\"8\" cy=\"16\" r=\"1.2\"/><circle cx=\"16\" cy=\"16\" r=\"1.2\"/></svg>"
+    },
+    "pide": {
+      "id": "pide",
+      "title": {
+        "EN": "Pide, Pizza & Lahmacun",
+        "RU": "Пиде, Пицца & Лахмаджун",
+        "TR": "Pide, Pizza & Lahmacun",
+        "UZ": "Pidelar"
+      },
+      "subtitle": {
+        "EN": "Stone Oven Baked",
+        "RU": "Из каменной печи",
+        "TR": "Taş Fırından",
+        "UZ": "Pechdan Yangi"
+      },
+      "description": {
+        "EN": "Traditional Turkish pide, gourmet pizzas, and fresh lahmacuns.",
+        "RU": "Традиционные пиде, фирменная пицца и хрустящий лахмаджун из каменной печи.",
+        "TR": "Taş fırında pişen nefis çıtır lahmacunlar ve zengin malzemeli pizzalar.",
+        "UZ": "Tosh pechda tayyorlangan pidalar, pitsalar va lahmajunlar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 12s4-5 10-5 10 5 10 5-4 5-10 5-10-5-10-5z\"/><path d=\"M6 12h12M9 10l2 4M13 10l2 4\"/></svg>"
+    },
+    "fast_food": {
+      "id": "fast_food",
+      "title": {
+        "EN": "Fast Food",
+        "RU": "Фаст Фуд",
+        "TR": "Hızlı Yemek",
+        "UZ": "Tezkor taomlar"
+      },
+      "subtitle": {
+        "EN": "Quick & Tasty",
+        "RU": "Быстро и вкусно",
+        "TR": "Hızlı ve Pratik",
+        "UZ": "Tez va Mazali"
+      },
+      "description": {
+        "EN": "Juicy doner durums and sandviches.",
+        "RU": "Сочные мясные дурумы и сэндвичи с донаром.",
+        "TR": "Nefis döner dürümler ve taptaze sandviç ekmeğinde döner çeşitleri.",
+        "UZ": "Sersuv go'shtli donar durumlar va maxsus sendvichlar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 11c0-3.5 3-5 9-5s9 1.5 9 5H3z\"/><path d=\"M2 15h20v2H2z\"/><path d=\"M3 19c0 1.5 2 2 9 2s9-.5 9-2H3z\"/><path d=\"M5 11c0 2 3 2.5 7 2.5s7-.5 7-2.5\"/></svg>"
+    },
+    "bread": {
+      "id": "bread",
+      "title": {
+        "EN": "Bread",
+        "RU": "Хлеб",
+        "TR": "Ekmek",
+        "UZ": "Nonlar"
+      },
+      "subtitle": {
+        "EN": "Freshly Baked",
+        "RU": "Свежая выпечка",
+        "TR": "Taptaze Çıtır",
+        "UZ": "Tandirdan Yangi"
+      },
+      "description": {
+        "EN": "Traditional balloon bread and stone-oven flatbreads served warm.",
+        "RU": "Горячий домашний лаваш и воздушные турецкие лепешки к вашему столу.",
+        "TR": "Yemeklerinizin yanına eşlik edecek, fırından yeni çıkmış sıcacık ekmekler.",
+        "UZ": "Tandirdan yangi uzilgan, issiq balon lavashlar va milliy nonlar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17.5 5.5A4.5 4.5 0 0 0 13 1H6a4 4 0 0 0-4 4v12a4 4 0 0 0 4 4h7a4.5 4.5 0 0 0 4.5-4.5v-11z\"/><path d=\"M6 5.5l5 5M6 10.5l5 5M6 15.5l5 5\"/></svg>"
+    },
+    "dessert": {
+      "id": "dessert",
+      "title": {
+        "EN": "Desserts",
+        "RU": "Десерты",
+        "TR": "Tatlılar",
+        "UZ": "Shirinliklar"
+      },
+      "subtitle": {
+        "EN": "Sweet Delights",
+        "RU": "Сладкие блюда",
+        "TR": "Geleneksel Tatlar",
+        "UZ": "Shirin Lahzalar"
+      },
+      "description": {
+        "EN": "Sweet Turkish traditional desserts made fresh daily.",
+        "RU": "Свежие традиционные турецкие сладости и десерты.",
+        "TR": "Günlük taze hazırlanan geleneksel Türk tatlılarımız.",
+        "UZ": "Har kuni yangi tayyorlanadigan milliy turk shirinliklari."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v4M12 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM2 15h20v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5zM21.5 10.5a1.5 1.5 0 0 0-2-1.35L12 12 4.5 9.15a1.5 1.5 0 0 0-2 1.35V15h19v-4.5z\"/></svg>"
+    },
+    "drinks": {
+      "id": "drinks",
+      "title": {
+        "EN": "Bar & Drinks",
+        "RU": "Бар & Напитки",
+        "TR": "İçecekler",
+        "UZ": "Bar"
+      },
+      "subtitle": {
+        "EN": "Refreshing Beverages",
+        "RU": "Освежающие напитки",
+        "TR": "Soğuk & Sıcak",
+        "UZ": "Salqin Ichimliklar"
+      },
+      "description": {
+        "EN": "Fresh lemonades, traditional tea, coffee, and soft drinks.",
+        "RU": "Свежие лимонады, традиционный турецкий чай, кофе и соки.",
+        "TR": "Taze demlenmiş çay, kahve ve serinletici soğuk içecekler.",
+        "UZ": "Uy sharoitida tayyorlangan limonadlar, turk choyi, qahva va salqin ichimliklar."
+      },
+      "iconSvg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 2H6v7a6 6 0 0 0 12 0V2zM12 9v13M9 22h6\"/></svg>"
+    }
+  },
+  "menuItems": [
+    {
+      "id": "bf1",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Istanbul Kahvaltı Tabağı",
+        "RU": "Завтрак Стамбул",
+        "TR": "Istanbul Kahvaltı Tabağı",
+        "UZ": "Istanbul nonushtasi"
+      },
+      "description": {
+        "EN": "Delicious istanbul kahvaltı tabağı prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо завтрак стамбул, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis istanbul kahvaltı tabağı.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli istanbul nonushtasi."
+      },
+      "price": 147000,
+      "spicy": 0,
+      "image": "1 istanbul  истанбул.jpg"
+    },
+    {
+      "id": "bf2",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Melemen",
+        "RU": "Менемен",
+        "TR": "Melemen",
+        "UZ": "Menemen"
+      },
+      "description": {
+        "EN": "Delicious melemen prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо менемен, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis melemen.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli menemen."
+      },
+      "price": 51000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "bf3",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Sahanda Sucuklu Yumurta",
+        "RU": "Яичница с колбасой",
+        "TR": "Sahanda Sucuklu Yumurta",
+        "UZ": "Qovurilgan kolbasali tuxum"
+      },
+      "description": {
+        "EN": "Delicious sahanda sucuklu yumurta prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо яичница с колбасой, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sahanda sucuklu yumurta.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qovurilgan kolbasali tuxum."
+      },
+      "price": 50000,
+      "spicy": 0,
+      "image": "53 Yumurtalı Pide  Пиде c сЫром и яйцом.jpg"
+    },
+    {
+      "id": "bf4",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Serpme Kahvaltı",
+        "RU": "Семейный завтрак Стамбул",
+        "TR": "Serpme Kahvaltı",
+        "UZ": "Oilaviy Istanbul nonushtasi"
+      },
+      "description": {
+        "EN": "Delicious serpme kahvaltı prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо семейный завтрак стамбул, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis serpme kahvaltı.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli oilaviy istanbul nonushtasi."
+      },
+      "price": 428000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "bf5",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Sahanda Yumurta",
+        "RU": "Яичница",
+        "TR": "Sahanda Yumurta",
+        "UZ": "Qovurilgan tuxum"
+      },
+      "description": {
+        "EN": "Delicious sahanda yumurta prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо яичница, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sahanda yumurta.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qovurilgan tuxum."
+      },
+      "price": 7,
+      "spicy": 0,
+      "image": "53 Yumurtalı Pide  Пиде c сЫром и яйцом.jpg"
+    },
+    {
+      "id": "bf6",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Kaşarlı Omlet",
+        "RU": "Омлет с сыром",
+        "TR": "Kaşarlı Omlet",
+        "UZ": "Pishloqli omlet"
+      },
+      "description": {
+        "EN": "Delicious kaşarlı omlet prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо омлет с сыром, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kaşarlı omlet.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pishloqli omlet."
+      },
+      "price": 48000,
+      "spicy": 0,
+      "image": "53 Yumurtalı Pide  Пиде c сЫром и яйцом.jpg"
+    },
+    {
+      "id": "bf7",
+      "categoryId": "breakfast",
+      "title": {
+        "EN": "Pastırmalı Yumurta",
+        "RU": "Яичница с пастурмой",
+        "TR": "Pastırmalı Yumurta",
+        "UZ": "Basturma bilan qovurilgan tuxum"
+      },
+      "description": {
+        "EN": "Delicious pastırmalı yumurta prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо яичница с пастурмой, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pastırmalı yumurta.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli basturma bilan qovurilgan tuxum."
+      },
+      "price": 80000,
+      "spicy": 0,
+      "image": "52 Pastirmali pide  Пиде с пастурмой.jpg"
+    },
+    {
+      "id": "sal1",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Meyve Salatası",
+        "RU": "Фруктовый",
+        "TR": "Meyve Salatası",
+        "UZ": "Miks salat"
+      },
+      "description": {
+        "EN": "Delicious meyve salatası prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо фруктовый, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis meyve salatası.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli mevali salat."
+      },
+      "price": 90000,
+      "spicy": 0,
+      "image": "50  Meyve Salatası  Фруктовый.jpg"
+    },
+    {
+      "id": "sal2",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Et Söğüşü",
+        "RU": "Мясное ассорти",
+        "TR": "Et Söğüşü",
+        "UZ": "Go'shtli assorti"
+      },
+      "description": {
+        "EN": "Delicious et söğüşü prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясное ассорти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis et söğüşü.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli assorti."
+      },
+      "price": 230000,
+      "spicy": 0,
+      "image": "47 Et Söğüşi мясное ассорти.jpg"
+    },
+    {
+      "id": "sal3",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Caprese",
+        "RU": "Капрезе",
+        "TR": "Caprese",
+        "UZ": "Kapreze salati"
+      },
+      "description": {
+        "EN": "Delicious caprese prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо капрезе, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis caprese.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli kapreze salati."
+      },
+      "price": 185000,
+      "spicy": 0,
+      "image": "46 Caprese  Капрезе.jpg"
+    },
+    {
+      "id": "sal4",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Kavkaz Salata",
+        "RU": "Овощное ассорти",
+        "TR": "Kavkaz Salata",
+        "UZ": "Sabzavotli assorti"
+      },
+      "description": {
+        "EN": "Delicious kavkaz salata prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо овощное ассорти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kavkaz salata.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sabzavotli assorti."
+      },
+      "price": 75000,
+      "spicy": 0,
+      "image": "49 kavkaz salata  овоЩное ассорти.jpg"
+    },
+    {
+      "id": "sal5",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Peynir Tabağı",
+        "RU": "Сырное ассорти",
+        "TR": "Peynir Tabağı",
+        "UZ": "Pishloqli assorti"
+      },
+      "description": {
+        "EN": "Delicious peynir tabağı prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо сырное ассорти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis peynir tabağı.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pishloqli assorti."
+      },
+      "price": 230000,
+      "spicy": 0,
+      "image": "48 Peynir Tabağı   сырное ассорти.jpg"
+    },
+    {
+      "id": "sal6",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Vinegret",
+        "RU": "Винегрет",
+        "TR": "Vinegret",
+        "UZ": "Vinegret salati"
+      },
+      "description": {
+        "EN": "Delicious vinegret prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо винегрет, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis vinegret.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli vinegret salati."
+      },
+      "price": 55000,
+      "spicy": 0,
+      "image": "8 vinegret  винегрет.jpg"
+    },
+    {
+      "id": "sal7",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Fransiz Salatası",
+        "RU": "Французский",
+        "TR": "Fransiz Salatası",
+        "UZ": "Fransuzcha salat"
+      },
+      "description": {
+        "EN": "Delicious fransiz salatası prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо французский, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis fransiz salatası.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli fransuzcha salat."
+      },
+      "price": 75000,
+      "spicy": 0,
+      "image": "9 fransiz salatasi  Французский.jpg"
+    },
+    {
+      "id": "sal8",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Kraliyet",
+        "RU": "Королевский",
+        "TR": "Kraliyet",
+        "UZ": "Qirollik salati"
+      },
+      "description": {
+        "EN": "Delicious kraliyet prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо королевский, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kraliyet.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qirollik salati."
+      },
+      "price": 45000,
+      "spicy": 0,
+      "image": "10 kraliyet  королевский.jpg"
+    },
+    {
+      "id": "sal9",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Yunan Salatası",
+        "RU": "Греческий",
+        "TR": "Yunan Salatası",
+        "UZ": "Grekcha salat"
+      },
+      "description": {
+        "EN": "Delicious yunan salatası prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо греческий, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yunan salatası.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli grekcha salat."
+      },
+      "price": 84000,
+      "spicy": 0,
+      "image": "50  Meyve Salatası  Фруктовый.jpg"
+    },
+    {
+      "id": "sal10",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Japon Salatası",
+        "RU": "Японский",
+        "TR": "Japon Salatası",
+        "UZ": "Yaponcha salat"
+      },
+      "description": {
+        "EN": "Delicious japon salatası prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо японский, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis japon salatası.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli yaponcha salat."
+      },
+      "price": 99000,
+      "spicy": 0,
+      "image": "7 japon salatasi японский.jpg"
+    },
+    {
+      "id": "sal11",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Sezar",
+        "RU": "Цезарь",
+        "TR": "Sezar",
+        "UZ": "Sezar salati"
+      },
+      "description": {
+        "EN": "Delicious sezar prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо цезарь, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sezar.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sezar salati."
+      },
+      "price": 79000,
+      "spicy": 0,
+      "image": "5 sezar  Цезарь.jpg"
+    },
+    {
+      "id": "sal12",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Baharatli Salatalik",
+        "RU": "Острые огурцы",
+        "TR": "Baharatli Salatalik",
+        "UZ": "Achchiq bodringlar"
+      },
+      "description": {
+        "EN": "Delicious baharatli salatalik prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо острые огурцы, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis baharatli salatalik.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli achchiq bodringlar."
+      },
+      "price": 125000,
+      "spicy": 2,
+      "image": "6 baharatli salatalik  оcтрые огурцы.jpg"
+    },
+    {
+      "id": "sal13",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Gevrek Patlican",
+        "RU": "Хрустящие баклажаны",
+        "TR": "Gevrek Patlican",
+        "UZ": "Qarsildoq baqlajonlar"
+      },
+      "description": {
+        "EN": "Delicious gevrek patlican prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо хрустящие баклажаны, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis gevrek patlican.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qarsildoq baqlajonlar."
+      },
+      "price": 120000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "sal14",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Kapris",
+        "RU": "Каприз",
+        "TR": "Kapris",
+        "UZ": "Kapriz salati"
+      },
+      "description": {
+        "EN": "Delicious kapris prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо каприз, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kapris.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli kapriz salati."
+      },
+      "price": 95000,
+      "spicy": 0,
+      "image": "109 kapris  каприз.jpg"
+    },
+    {
+      "id": "sal15",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Istanbul",
+        "RU": "Истанбул",
+        "TR": "Istanbul",
+        "UZ": "Istanbul salati"
+      },
+      "description": {
+        "EN": "Delicious istanbul prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо истанбул, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis istanbul.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli istanbul salati."
+      },
+      "price": 84000,
+      "spicy": 0,
+      "image": "1 istanbul  истанбул.jpg"
+    },
+    {
+      "id": "sal16",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Bahadir Sah",
+        "RU": "Боходир Шох",
+        "TR": "Bahadir Sah",
+        "UZ": "Bahodir Shoh salati"
+      },
+      "description": {
+        "EN": "Delicious bahadir sah prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо боходир шох, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis bahadir sah.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli bahodir shoh salati."
+      },
+      "price": 120000,
+      "spicy": 0,
+      "image": "2 bahadir sah боходир шох.jpg"
+    },
+    {
+      "id": "sal17",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Etli Arugula Salata",
+        "RU": "Руккола с мясом",
+        "TR": "Etli Arugula Salata",
+        "UZ": "Go'shtli rukkola salati"
+      },
+      "description": {
+        "EN": "Delicious etli arugula salata prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо руккола с мясом, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis etli arugula salata.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli rukkola salati."
+      },
+      "price": 197000,
+      "spicy": 0,
+      "image": "108 etli Arugula salata  Руккола с мясом.jpg"
+    },
+    {
+      "id": "sal18",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Piramit",
+        "RU": "Пирамида",
+        "TR": "Piramit",
+        "UZ": "Piramida salati"
+      },
+      "description": {
+        "EN": "Delicious piramit prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пирамида, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis piramit.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli piramida salati."
+      },
+      "price": 66000,
+      "spicy": 0,
+      "image": "106 PIRAMIT  ПИРАМИДА.jpg"
+    },
+    {
+      "id": "sal19",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Sultan Salata",
+        "RU": "Салат Султан",
+        "TR": "Sultan Salata",
+        "UZ": "Sulton salati"
+      },
+      "description": {
+        "EN": "Delicious sultan salata prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо салат султан, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sultan salata.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sulton salati."
+      },
+      "price": 92000,
+      "spicy": 0,
+      "image": "107 sultan salata  Салат Султан.jpg"
+    },
+    {
+      "id": "sal20",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Suyez Salata",
+        "RU": "Свежий салат",
+        "TR": "Suyez Salata",
+        "UZ": "Sersuv salat"
+      },
+      "description": {
+        "EN": "Delicious suyez salata prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо свежий салат, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis suyez salata.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sersuv salat."
+      },
+      "price": 35000,
+      "spicy": 0,
+      "image": "104 suyez salata  СВЕЖИЙ САЛАТ.jpg"
+    },
+    {
+      "id": "sal21",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Burrata Salata",
+        "RU": "Буррато салат",
+        "TR": "Burrata Salata",
+        "UZ": "Burrata salati"
+      },
+      "description": {
+        "EN": "Delicious burrata salata prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо буррато салат, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis burrata salata.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli burrata salati."
+      },
+      "price": 225000,
+      "spicy": 0,
+      "image": "105 burrata salata  Буррато салат.jpg"
+    },
+    {
+      "id": "sal22",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Sonbahar",
+        "RU": "Осенний",
+        "TR": "Sonbahar",
+        "UZ": "Kuzgi salat"
+      },
+      "description": {
+        "EN": "Delicious sonbahar prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо осенний, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sonbahar.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli kuzgi salat."
+      },
+      "price": 75000,
+      "spicy": 0,
+      "image": "103 sonbahar  ОСЕННИЙ.jpg"
+    },
+    {
+      "id": "sal23",
+      "categoryId": "salad",
+      "title": {
+        "EN": "Rus Salatası",
+        "RU": "Оливье",
+        "TR": "Rus Salatası",
+        "UZ": "Olyvye salati"
+      },
+      "description": {
+        "EN": "Delicious rus salatası prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо оливье, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis rus salatası.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli olyvye salati."
+      },
+      "price": 72000,
+      "spicy": 0,
+      "image": "50  Meyve Salatası  Фруктовый.jpg"
+    },
+    {
+      "id": "sd1",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Misir",
+        "RU": "Кукуруза",
+        "TR": "Misir",
+        "UZ": "Makkajo'xori"
+      },
+      "description": {
+        "EN": "Delicious misir prepared fresh using traditional methods. 100gr",
+        "RU": "Вкусное блюдо кукуруза, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis misir.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli makkajo'xori."
+      },
+      "price": 14000,
+      "spicy": 0,
+      "image": "34 misir  Кукуруза.jpg"
+    },
+    {
+      "id": "sd2",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Sebze Garnitürü",
+        "RU": "Овощной гарнир",
+        "TR": "Sebze Garnitürü",
+        "UZ": "Sabzavotli garnir"
+      },
+      "description": {
+        "EN": "Delicious sebze garnitürü prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо овощной гарнир, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sebze garnitürü.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sabzavotli garnir."
+      },
+      "price": 25000,
+      "spicy": 0,
+      "image": "32 pSebze garnitürü  Овощной гарнир.jpg"
+    },
+    {
+      "id": "sd3",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Yeşil Bezelye",
+        "RU": "Зелёный горошек",
+        "TR": "Yeşil Bezelye",
+        "UZ": "Ko'k no'xat"
+      },
+      "description": {
+        "EN": "Delicious yeşil bezelye prepared fresh using traditional methods. 100gr",
+        "RU": "Вкусное блюдо зелёный горошек, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yeşil bezelye.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli ko'k no'xat."
+      },
+      "price": 14000,
+      "spicy": 0,
+      "image": "33 yeşil Bezelye  Зелёный горошек.jpg"
+    },
+    {
+      "id": "sd4",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Biberiye Turşușu",
+        "RU": "Бибер туршу ассорти",
+        "TR": "Biberiye Turşușu",
+        "UZ": "Qalampir tuzlamasi"
+      },
+      "description": {
+        "EN": "Delicious biberiye turşușu prepared fresh using traditional methods. 20gr",
+        "RU": "Вкусное блюдо бибер туршу ассорти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis biberiye turşușu.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qalampir tuzlamasi."
+      },
+      "price": 5000,
+      "spicy": 0,
+      "image": "31 biberiye turşuşu  Бибер туршу ассорти.jpg"
+    },
+    {
+      "id": "sd5",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Cacik",
+        "RU": "Турецкая окрошка",
+        "TR": "Cacik",
+        "UZ": "Jajik (turkcha okroshka)"
+      },
+      "description": {
+        "EN": "Delicious cacik prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо турецкая окрошка, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis cacik.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli jajik (turkcha okroshka)."
+      },
+      "price": 40000,
+      "spicy": 0,
+      "image": "37 Cacık  Турецкая окрошка.jpg"
+    },
+    {
+      "id": "sd6",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Patates Kizartmasi",
+        "RU": "Картофель фри",
+        "TR": "Patates Kizartmasi",
+        "UZ": "Kartoshka fri"
+      },
+      "description": {
+        "EN": "Delicious patates kizartmasi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо картофель фри, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis patates kizartmasi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli kartoshka fri."
+      },
+      "price": 32000,
+      "spicy": 0,
+      "image": "42 patates kizartmasi  Картофель фри.jpg"
+    },
+    {
+      "id": "sd7",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Haydari",
+        "RU": "Хайдари",
+        "TR": "Haydari",
+        "UZ": "Haydari zakuskasi"
+      },
+      "description": {
+        "EN": "Delicious haydari prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо хайдари, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis haydari.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli haydari zakuskasi."
+      },
+      "price": 17000,
+      "spicy": 0,
+      "image": "41 Haydari  хайдари.jpg"
+    },
+    {
+      "id": "sd8",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Yaprak Sarmasi",
+        "RU": "Долма",
+        "TR": "Yaprak Sarmasi",
+        "UZ": "Do'lma"
+      },
+      "description": {
+        "EN": "Delicious yaprak sarmasi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо долма, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yaprak sarmasi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli do'lma."
+      },
+      "price": 31000,
+      "spicy": 0,
+      "image": "45 yaprak sarmasi Долма.jpg"
+    },
+    {
+      "id": "sd9",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Yeşil Zeytun",
+        "RU": "Оливки",
+        "TR": "Yeşil Zeytun",
+        "UZ": "Yashil zaytun"
+      },
+      "description": {
+        "EN": "Delicious yeşil zeytun prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо оливки, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yeşil zeytun.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli yashil zaytun."
+      },
+      "price": 28000,
+      "spicy": 0,
+      "image": "43 yesil zeytun  оливки.jpg"
+    },
+    {
+      "id": "sd10",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Adjika",
+        "RU": "Аджика",
+        "TR": "Adjika",
+        "UZ": "Achchiq sous (Adjika)"
+      },
+      "description": {
+        "EN": "Delicious adjika prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо аджика, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis adjika.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli achchiq sous (adjika)."
+      },
+      "price": 18000,
+      "spicy": 0,
+      "image": "39 Adjika  АДЖИКА.jpg"
+    },
+    {
+      "id": "sd11",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Sigara Böreği",
+        "RU": "Сигара бёрек",
+        "TR": "Sigara Böreği",
+        "UZ": "Sigara bo'regi"
+      },
+      "description": {
+        "EN": "Delicious sigara böreği prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо сигара бёрек, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sigara böreği.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sigara bo'regi."
+      },
+      "price": 34000,
+      "spicy": 0,
+      "image": "44 Sigara böreği  СИГАРА БЁРЕК.jpg"
+    },
+    {
+      "id": "sd12",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Siyah Zeytin",
+        "RU": "Маслины",
+        "TR": "Siyah Zeytin",
+        "UZ": "Qora zaytun"
+      },
+      "description": {
+        "EN": "Delicious siyah zeytin prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо маслины, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis siyah zeytin.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qora zaytun."
+      },
+      "price": 28000,
+      "spicy": 0,
+      "image": "38 siyah zeytin  Маслины.jpg"
+    },
+    {
+      "id": "sd13",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Ezme",
+        "RU": "Эзме",
+        "TR": "Ezme",
+        "UZ": "Ezme zakuskasi"
+      },
+      "description": {
+        "EN": "Delicious ezme prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо эзме, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis ezme.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli ezme zakuskasi."
+      },
+      "price": 20000,
+      "spicy": 0,
+      "image": "36 Ezme эзма.jpg"
+    },
+    {
+      "id": "sd14",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Pirinç Pilavi",
+        "RU": "Рис",
+        "TR": "Pirinç Pilavi",
+        "UZ": "Guruch garniri"
+      },
+      "description": {
+        "EN": "Delicious pirinç pilavi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо рис, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pirinç pilavi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli guruch garniri."
+      },
+      "price": 17000,
+      "spicy": 0,
+      "image": "35 pirinc pilav  рис.jpg"
+    },
+    {
+      "id": "sd15",
+      "categoryId": "sides",
+      "title": {
+        "EN": "Turşu Çeşitleri",
+        "RU": "Солёный ассорти",
+        "TR": "Turşu Çeşitleri",
+        "UZ": "Tuzlamalar assortisi"
+      },
+      "description": {
+        "EN": "Delicious turşu çeşitleri prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо солёный ассорти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis turşu çeşitleri.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli tuzlamalar assortisi."
+      },
+      "price": 68000,
+      "spicy": 0,
+      "image": "40 tuzlu çeşitleri  Солёный ассорти.jpg"
+    },
+    {
+      "id": "soup1",
+      "categoryId": "soups",
+      "title": {
+        "EN": "Mercimek",
+        "RU": "Чечевичный",
+        "TR": "Mercimek",
+        "UZ": "Yasmiq sho'rvasi"
+      },
+      "description": {
+        "EN": "Delicious mercimek prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо чечевичный, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis mercimek.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli yasmiq sho'rvasi."
+      },
+      "price": 38000,
+      "spicy": 0,
+      "image": "29 mercimek  чечевичный.jpg"
+    },
+    {
+      "id": "soup2",
+      "categoryId": "soups",
+      "title": {
+        "EN": "Ezogelin",
+        "RU": "Эзогелин",
+        "TR": "Ezogelin",
+        "UZ": "Ezogelin sho'rvasi"
+      },
+      "description": {
+        "EN": "Delicious ezogelin prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо эзогелин, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis ezogelin.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli ezogelin sho'rvasi."
+      },
+      "price": 38000,
+      "spicy": 0,
+      "image": "28  ezogelin   эзогелин.jpg"
+    },
+    {
+      "id": "soup3",
+      "categoryId": "soups",
+      "title": {
+        "EN": "Dil Çorbasi",
+        "RU": "Суп из языка",
+        "TR": "Dil Çorbasi",
+        "UZ": "Til sho'rvasi"
+      },
+      "description": {
+        "EN": "Delicious dil çorbasi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо суп из языка, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis dil çorbasi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli til sho'rvasi."
+      },
+      "price": 38000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "mt1",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Mantarli Et Sote",
+        "RU": "Мясное соте с грибами",
+        "TR": "Mantarli Et Sote",
+        "UZ": "Qo'ziqorinli go'sht sote"
+      },
+      "description": {
+        "EN": "Delicious mantarli et sote prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясное соте с грибами, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis mantarli et sote.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'ziqorinli go'sht sote."
+      },
+      "price": 121000,
+      "spicy": 0,
+      "image": "101 mantali et sote мясное соте с грибами.jpg"
+    },
+    {
+      "id": "mt2",
+      "categoryId": "meat",
+      "title": {
+        "EN": "İskender Kebabi",
+        "RU": "Искандер кебаб",
+        "TR": "İskender Kebabi",
+        "UZ": "Iskandor kabob"
+      },
+      "description": {
+        "EN": "Delicious i̇skender kebabi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо искандер кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis i̇skender kebabi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli iskandor kabob."
+      },
+      "price": 130000,
+      "spicy": 0,
+      "image": "99 iskandar kebabi искандер кебаб.jpg"
+    },
+    {
+      "id": "mt3",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Pilav Üstü Döner",
+        "RU": "Пилав усти донар",
+        "TR": "Pilav Üstü Döner",
+        "UZ": "Guruch ustida donar"
+      },
+      "description": {
+        "EN": "Delicious pilav üstü döner prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пилав усти донар, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pilav üstü döner.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli guruch ustida donar."
+      },
+      "price": 124000,
+      "spicy": 0,
+      "image": "98 pilav usti donar  пилав усти донар.jpg"
+    },
+    {
+      "id": "mt4",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Et Döner",
+        "RU": "Мясной донар",
+        "TR": "Et Döner",
+        "UZ": "Go'shtli donar"
+      },
+      "description": {
+        "EN": "Delicious et döner prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясной донар, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis et döner.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli donar."
+      },
+      "price": 127000,
+      "spicy": 0,
+      "image": "97 et donar мясной донар.jpg"
+    },
+    {
+      "id": "mt5",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Tavuk Sote",
+        "RU": "Соте куриное с грибами",
+        "TR": "Tavuk Sote",
+        "UZ": "Qo'ziqorinli tovuq sote"
+      },
+      "description": {
+        "EN": "Delicious tavuk sote prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо соте куриное с грибами, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuk sote.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'ziqorinli tovuq sote."
+      },
+      "price": 79000,
+      "spicy": 0,
+      "image": "100 tavuk Cote  соте куриное с грибами.jpg"
+    },
+    {
+      "id": "mt6",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Kuzu Kavurma",
+        "RU": "Бараньи ребрышки",
+        "TR": "Kuzu Kavurma",
+        "UZ": "Qo'zichoq qovurmasi"
+      },
+      "description": {
+        "EN": "Delicious kuzu kavurma prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо бараньи ребрышки, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuzu kavurma.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'zichoq qovurmasi."
+      },
+      "price": 162000,
+      "spicy": 0,
+      "image": "96 kuzu kavurma  Бараньи ребрышки.jpg"
+    },
+    {
+      "id": "mt7",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Kuru Fasulye",
+        "RU": "Куру фасуле",
+        "TR": "Kuru Fasulye",
+        "UZ": "Quruq loviya"
+      },
+      "description": {
+        "EN": "Delicious kuru fasulye prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо куру фасуле, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuru fasulye.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli quruq loviya."
+      },
+      "price": 83000,
+      "spicy": 0,
+      "image": "25 kuru fasulye  куру фасуле.jpg"
+    },
+    {
+      "id": "mt8",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Dana Kavurma",
+        "RU": "Дана ковурма",
+        "TR": "Dana Kavurma",
+        "UZ": "Buzoq go'shtidan qovurma"
+      },
+      "description": {
+        "EN": "Delicious dana kavurma prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо дана ковурма, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis dana kavurma.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli buzoq go'shtidan qovurma."
+      },
+      "price": 140000,
+      "spicy": 0,
+      "image": "23 dana kavurma дана ковурма.jpg"
+    },
+    {
+      "id": "mt9",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Çanak Köfte",
+        "RU": "Чанок кофта",
+        "TR": "Çanak Köfte",
+        "UZ": "Chanoq ko'fte"
+      },
+      "description": {
+        "EN": "Delicious çanak köfte prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо чанок кофта, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis çanak köfte.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli chanoq ko'fte."
+      },
+      "price": 118000,
+      "spicy": 0,
+      "image": "24 Çanak Köfte  Чанок кофта.jpg"
+    },
+    {
+      "id": "mt10",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Lokum Kebap",
+        "RU": "Лукум кебаб",
+        "TR": "Lokum Kebap",
+        "UZ": "Luqum kabob"
+      },
+      "description": {
+        "EN": "Delicious lokum kebap prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо лукум кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis lokum kebap.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli luqum kabob."
+      },
+      "price": 145000,
+      "spicy": 0,
+      "image": "26 lukum kebab  лукум кебаб.jpg"
+    },
+    {
+      "id": "mt11",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Parmak Kebap",
+        "RU": "Пармак кебаб",
+        "TR": "Parmak Kebap",
+        "UZ": "Barmoq kabob"
+      },
+      "description": {
+        "EN": "Delicious parmak kebap prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пармак кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis parmak kebap.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli barmoq kabob."
+      },
+      "price": 121000,
+      "spicy": 0,
+      "image": "17 parmak kebab  пармак кебаб.jpg"
+    },
+    {
+      "id": "mt12",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Saç Tava",
+        "RU": "Сач тава",
+        "TR": "Saç Tava",
+        "UZ": "Sach tava"
+      },
+      "description": {
+        "EN": "Delicious saç tava prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо сач тава, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis saç tava.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sach tava."
+      },
+      "price": 145000,
+      "spicy": 0,
+      "image": "27 sac tava  сач тава.jpg"
+    },
+    {
+      "id": "mt13",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Kuzu Tandır",
+        "RU": "Кузу тандыр",
+        "TR": "Kuzu Tandır",
+        "UZ": "Qo'zichoq tandir"
+      },
+      "description": {
+        "EN": "Delicious kuzu tandır prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо кузу тандыр, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuzu tandır.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'zichoq tandir."
+      },
+      "price": 179000,
+      "spicy": 0,
+      "image": "20 kuzu tandir кузу тандыр.jpg"
+    },
+    {
+      "id": "mt14",
+      "categoryId": "meat",
+      "title": {
+        "EN": "İslim Kebap",
+        "RU": "Ислим кебаб",
+        "TR": "İslim Kebap",
+        "UZ": "Islim kabob"
+      },
+      "description": {
+        "EN": "Delicious i̇slim kebap prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо ислим кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis i̇slim kebap.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli islim kabob."
+      },
+      "price": 70000,
+      "spicy": 0,
+      "image": "21 islim kebab  Ислим кебаб.jpg"
+    },
+    {
+      "id": "mt15",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Hasan Paşa Köfte",
+        "RU": "Котлет Хасан Паша",
+        "TR": "Hasan Paşa Köfte",
+        "UZ": "Hasan Posho ko'ftesi"
+      },
+      "description": {
+        "EN": "Delicious hasan paşa köfte prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо котлет хасан паша, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis hasan paşa köfte.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli hasan posho ko'ftesi."
+      },
+      "price": 105000,
+      "spicy": 0,
+      "image": "19 xasan pasa kofte  котлет хасан паша.jpg"
+    },
+    {
+      "id": "mt16",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Tavuk Fırın",
+        "RU": "Курица в печи",
+        "TR": "Tavuk Fırın",
+        "UZ": "Pechda pishirilgan tovuq"
+      },
+      "description": {
+        "EN": "Delicious tavuk fırın prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо курица в печи, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuk fırın.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pechda pishirilgan tovuq."
+      },
+      "price": 78000,
+      "spicy": 0,
+      "image": "18 TAVUK FIRIN КУРИЦА в печи.jpg"
+    },
+    {
+      "id": "mt17",
+      "categoryId": "meat",
+      "title": {
+        "EN": "Bebek Köftesi",
+        "RU": "Детская котлета",
+        "TR": "Bebek Köftesi",
+        "UZ": "Bolalar kotleti"
+      },
+      "description": {
+        "EN": "Delicious bebek köftesi prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо детская котлета, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis bebek köftesi.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli bolalar kotleti."
+      },
+      "price": 84000,
+      "spicy": 0,
+      "image": "16 Bebek Köftesi Детскaя котлетa.jpg"
+    },
+    {
+      "id": "mp1",
+      "categoryId": "mega_platters",
+      "title": {
+        "EN": "Istanbul Karışık Kebab (5 kişilik)",
+        "RU": "Истанбул ассорти (на 5 персон)",
+        "TR": "Istanbul Karışık Kebab (5 kişilik)",
+        "UZ": "Istanbul aralash kabob (5 kishilik)"
+      },
+      "description": {
+        "EN": "Delicious istanbul karışık kebab (5 kişilik) prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо истанбул ассорти (на 5 персон), приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis istanbul karışık kebab (5 kişilik).",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli istanbul aralash kabob (5 kishilik)."
+      },
+      "price": 975000,
+      "spicy": 0,
+      "image": "1 istanbul  истанбул.jpg"
+    },
+    {
+      "id": "mp2",
+      "categoryId": "mega_platters",
+      "title": {
+        "EN": "Istanbul Karışık Kebab (3 kişilik)",
+        "RU": "Истанбул ассорти (на 3 персоны)",
+        "TR": "Istanbul Karışık Kebab (3 kişilik)",
+        "UZ": "Istanbul aralash kabob (3 kishilik)"
+      },
+      "description": {
+        "EN": "Delicious istanbul karışık kebab (3 kişilik) prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо истанбул ассорти (на 3 персоны), приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis istanbul karışık kebab (3 kişilik).",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli istanbul aralash kabob (3 kishilik)."
+      },
+      "price": 582000,
+      "spicy": 0,
+      "image": "1 istanbul  истанбул.jpg"
+    },
+    {
+      "id": "mp3",
+      "categoryId": "mega_platters",
+      "title": {
+        "EN": "Assorti Maks (5 kişilik)",
+        "RU": "Ассорти макс (на 5 персон)",
+        "TR": "Assorti Maks (5 kişilik)",
+        "UZ": "Maks assorti (5 kishilik)"
+      },
+      "description": {
+        "EN": "Delicious assorti maks (5 kişilik) prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо ассорти макс (на 5 персон), приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis assorti maks (5 kişilik).",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli maks assorti (5 kishilik)."
+      },
+      "price": 1050000,
+      "spicy": 0,
+      "image": "31 biberiye turşuşu  Бибер туршу ассорти.jpg"
+    },
+    {
+      "id": "kb1",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Tavuk Şiş",
+        "RU": "Шашлык куринный",
+        "TR": "Tavuk Şiş",
+        "UZ": "Tovuq shashlik"
+      },
+      "description": {
+        "EN": "Delicious tavuk şiş prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо шашлык куринный, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuk şiş.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli tovuq shashlik."
+      },
+      "price": 98000,
+      "spicy": 0,
+      "image": "93 Tavuk Şiş  шашлык Куринный.jpg"
+    },
+    {
+      "id": "kb2",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Karışık Izgara",
+        "RU": "Каришик кебаб",
+        "TR": "Karışık Izgara",
+        "UZ": "Aralash kabob (Izgara)"
+      },
+      "description": {
+        "EN": "Delicious karışık izgara prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо каришик кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis karışık izgara.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli aralash kabob (izgara)."
+      },
+      "price": 181000,
+      "spicy": 0,
+      "image": "92 karişik izgara каришик кебаб.jpg"
+    },
+    {
+      "id": "kb3",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Tavuk Pirzola",
+        "RU": "Куриная пирзола",
+        "TR": "Tavuk Pirzola",
+        "UZ": "Tovuqli pirzola"
+      },
+      "description": {
+        "EN": "Delicious tavuk pirzola prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо куриная пирзола, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuk pirzola.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli tovuqli pirzola."
+      },
+      "price": 98000,
+      "spicy": 0,
+      "image": "91 tavuk pirzola куриная пирзола.jpg"
+    },
+    {
+      "id": "kb4",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Tavuklu Çöp Şiş",
+        "RU": "Курица на шпажках",
+        "TR": "Tavuklu Çöp Şiş",
+        "UZ": "Cho'pli tovuq shashlik"
+      },
+      "description": {
+        "EN": "Delicious tavuklu çöp şiş prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо курица на шпажках, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuklu çöp şiş.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli cho'pli tovuq shashlik."
+      },
+      "price": 91000,
+      "spicy": 0,
+      "image": "90 Tavuklu Çöp Şiş  курица на шпажках.jpg"
+    },
+    {
+      "id": "kb5",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Tavuk File",
+        "RU": "Куриное филе",
+        "TR": "Tavuk File",
+        "UZ": "Tovuq filesi"
+      },
+      "description": {
+        "EN": "Delicious tavuk file prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо куриное филе, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavuk file.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli tovuq filesi."
+      },
+      "price": 94000,
+      "spicy": 0,
+      "image": "89 tavuk file  куриное филе.jpg"
+    },
+    {
+      "id": "kb6",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Fıstıklı Sarma Beyti",
+        "RU": "Фистикли тандыр бейти",
+        "TR": "Fıstıklı Sarma Beyti",
+        "UZ": "Pistali Beyti kabob"
+      },
+      "description": {
+        "EN": "Delicious fıstıklı sarma beyti prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо фистикли тандыр бейти, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis fıstıklı sarma beyti.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pistali beyti kabob."
+      },
+      "price": 172000,
+      "spicy": 0,
+      "image": "88_fistikli_sarma_beyti_фистикли_Тандыр_бейти.jpg"
+    },
+    {
+      "id": "kb7",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Yoğurtlu Kebap",
+        "RU": "Шашлык с кефиром",
+        "TR": "Yoğurtlu Kebap",
+        "UZ": "Yogurtli kabob"
+      },
+      "description": {
+        "EN": "Delicious yoğurtlu kebap prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо шашлык с кефиром, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yoğurtlu kebap.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli yogurtli kabob."
+      },
+      "price": 139000,
+      "spicy": 0,
+      "image": "87 Yoğurtlu Kebap  Шашлык с кефиром.jpg"
+    },
+    {
+      "id": "kb8",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Kaşarlı Köfte",
+        "RU": "Котлеты с сыром",
+        "TR": "Kaşarlı Köfte",
+        "UZ": "Pishloqli ko'fte"
+      },
+      "description": {
+        "EN": "Delicious kaşarlı köfte prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо котлеты с сыром, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kaşarlı köfte.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pishloqli ko'fte."
+      },
+      "price": 144000,
+      "spicy": 0,
+      "image": "86 Kaşarlı Köfte  Котлеты с сыром.jpg"
+    },
+    {
+      "id": "kb9",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Kuzu Lokum",
+        "RU": "Кузу лукум кабоб",
+        "TR": "Kuzu Lokum",
+        "UZ": "Qo'zi go'shtidan luqum kabob"
+      },
+      "description": {
+        "EN": "Delicious kuzu lokum prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо кузу лукум кабоб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuzu lokum.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'zi go'shtidan luqum kabob."
+      },
+      "price": 172000,
+      "spicy": 0,
+      "image": "84 kuzu lokum  Кузу лукум кабоб.jpg"
+    },
+    {
+      "id": "kb10",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Izgara Köfte",
+        "RU": "Мясные котлеты",
+        "TR": "Izgara Köfte",
+        "UZ": "Go'shtli ko'fte"
+      },
+      "description": {
+        "EN": "Delicious izgara köfte prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясные котлеты, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis izgara köfte.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli ko'fte."
+      },
+      "price": 119000,
+      "spicy": 0,
+      "image": "85 Izgara Köfte Мясные котлеты.jpg"
+    },
+    {
+      "id": "kb11",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Kuzu Şiş",
+        "RU": "Шашлык из баранины",
+        "TR": "Kuzu Şiş",
+        "UZ": "Qo'y go'shtidan shashlik"
+      },
+      "description": {
+        "EN": "Delicious kuzu şiş prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо шашлык из баранины, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuzu şiş.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qo'y go'shtidan shashlik."
+      },
+      "price": 158000,
+      "spicy": 0,
+      "image": "83 Kuzu şiş  Шашлык из баранины.jpg"
+    },
+    {
+      "id": "kb12",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Kuzu Çöp Şiş",
+        "RU": "Баранина на шпажках",
+        "TR": "Kuzu Çöp Şiş",
+        "UZ": "Cho'pli qo'y shashlik"
+      },
+      "description": {
+        "EN": "Delicious kuzu çöp şiş prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо баранина на шпажках, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuzu çöp şiş.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli cho'pli qo'y shashlik."
+      },
+      "price": 160000,
+      "spicy": 0,
+      "image": "82 Kuzu Çöp Şiş баранина на шпажкаx.jpg"
+    },
+    {
+      "id": "kb13",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Karışık Tavuk",
+        "RU": "Куриный смешанный",
+        "TR": "Karışık Tavuk",
+        "UZ": "Aralash tovuqli kabob"
+      },
+      "description": {
+        "EN": "Delicious karışık tavuk prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо куриный смешанный, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis karışık tavuk.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli aralash tovuqli kabob."
+      },
+      "price": 121000,
+      "spicy": 0,
+      "image": "81 Karişik tavuk  куриный смешанный.jpg"
+    },
+    {
+      "id": "kb14",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Dana Et Kebab",
+        "RU": "Шашлык из говядины",
+        "TR": "Dana Et Kebab",
+        "UZ": "Mol go'shtidan shashlik"
+      },
+      "description": {
+        "EN": "Delicious dana et kebab prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо шашлык из говядины, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis dana et kebab.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli mol go'shtidan shashlik."
+      },
+      "price": 156000,
+      "spicy": 0,
+      "image": "80 dana et kebab  Шашлык из говядины.jpg"
+    },
+    {
+      "id": "kb15",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Soğanlı Kebab",
+        "RU": "Шашлык с луком",
+        "TR": "Soğanlı Kebab",
+        "UZ": "Piyozli kabob"
+      },
+      "description": {
+        "EN": "Delicious soğanlı kebab prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо шашлык с луком, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis soğanlı kebab.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli piyozli kabob."
+      },
+      "price": 198000,
+      "spicy": 0,
+      "image": "79 SOĞANli KEBAB  шашлык с луком.jpg"
+    },
+    {
+      "id": "kb16",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Urfa Kebab",
+        "RU": "Урфа шашлык",
+        "TR": "Urfa Kebab",
+        "UZ": "Urfa kabob"
+      },
+      "description": {
+        "EN": "Delicious urfa kebab prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо урфа шашлык, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis urfa kebab.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli urfa kabob."
+      },
+      "price": 134000,
+      "spicy": 0,
+      "image": "78 urfa kebab  урфа шашлык.jpg"
+    },
+    {
+      "id": "kb17",
+      "categoryId": "kebaps",
+      "title": {
+        "EN": "Adana Kebab",
+        "RU": "Адана кебаб",
+        "TR": "Adana Kebab",
+        "UZ": "Adana kabob"
+      },
+      "description": {
+        "EN": "Delicious adana kebab prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо адана кебаб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis adana kebab.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli adana kabob."
+      },
+      "price": 133000,
+      "spicy": 2,
+      "image": "77 ADANA KEBAB  АДАНА КЕБАБ.jpg"
+    },
+    {
+      "id": "stk1",
+      "categoryId": "steak",
+      "title": {
+        "EN": "Kaburga Gözü",
+        "RU": "Рибай",
+        "TR": "Kaburga Gözü",
+        "UZ": "Ribay steyk"
+      },
+      "description": {
+        "EN": "Delicious kaburga gözü prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо рибай, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kaburga gözü.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli ribay steyk."
+      },
+      "price": 320000,
+      "spicy": 0,
+      "image": "73 Kaburga Gözü рибай.png"
+    },
+    {
+      "id": "stk2",
+      "categoryId": "steak",
+      "title": {
+        "EN": "T-Bone",
+        "RU": "Тибон",
+        "TR": "T-Bone",
+        "UZ": "T-Boun steyk"
+      },
+      "description": {
+        "EN": "Delicious t-bone prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо тибон, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis t-bone.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli t-boun steyk."
+      },
+      "price": 315000,
+      "spicy": 0,
+      "image": "72 T-BONE  тибон.jpg"
+    },
+    {
+      "id": "stk3",
+      "categoryId": "steak",
+      "title": {
+        "EN": "Izgara Bon File",
+        "RU": "Бон филе",
+        "TR": "Izgara Bon File",
+        "UZ": "Bonfile steyk"
+      },
+      "description": {
+        "EN": "Delicious izgara bon file prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо бон филе, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis izgara bon file.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli bonfile steyk."
+      },
+      "price": 335000,
+      "spicy": 0,
+      "image": "71 izgara bon file  бон филе.jpg"
+    },
+    {
+      "id": "pd1",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Ballı Pide",
+        "RU": "Пиде с мёдом",
+        "TR": "Ballı Pide",
+        "UZ": "Asalli pide"
+      },
+      "description": {
+        "EN": "Delicious ballı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с мёдом, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis ballı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli asalli pide."
+      },
+      "price": 95000,
+      "spicy": 0,
+      "image": "54_balli_ve_fistikli_pide_пиде_с_мёдом_и_фисташками.jpg"
+    },
+    {
+      "id": "pd2",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Kıymalı Pide",
+        "RU": "Пиде с фаршем",
+        "TR": "Kıymalı Pide",
+        "UZ": "Qiymali pide"
+      },
+      "description": {
+        "EN": "Delicious kıymalı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с фаршем, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kıymalı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qiymali pide."
+      },
+      "price": 87000,
+      "spicy": 0,
+      "image": "56 kiymali pide  Пиде с фаршем.jpg"
+    },
+    {
+      "id": "pd3",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Karışık Pide",
+        "RU": "Пиде смешанный",
+        "TR": "Karışık Pide",
+        "UZ": "Aralash pide"
+      },
+      "description": {
+        "EN": "Delicious karışık pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде смешанный, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis karışık pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli aralash pide."
+      },
+      "price": 94000,
+      "spicy": 0,
+      "image": "57 karishik pide  пиде смешанный.jpg"
+    },
+    {
+      "id": "pd4",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Pastırmalı Pide",
+        "RU": "Пиде с пастурмой",
+        "TR": "Pastırmalı Pide",
+        "UZ": "Basturmali pide"
+      },
+      "description": {
+        "EN": "Delicious pastırmalı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с пастурмой, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pastırmalı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli basturmali pide."
+      },
+      "price": 145000,
+      "spicy": 0,
+      "image": "52 Pastirmali pide  Пиде с пастурмой.jpg"
+    },
+    {
+      "id": "pd5",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Yumurtalı Pide",
+        "RU": "Пиде с сыром и яйцом",
+        "TR": "Yumurtalı Pide",
+        "UZ": "Pishloqli va tuxumli pide"
+      },
+      "description": {
+        "EN": "Delicious yumurtalı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с сыром и яйцом, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis yumurtalı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pishloqli va tuxumli pide."
+      },
+      "price": 85000,
+      "spicy": 0,
+      "image": "53 Yumurtalı Pide  Пиде c сЫром и яйцом.jpg"
+    },
+    {
+      "id": "pd6",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Kuşbaşılı Pide",
+        "RU": "Пиде с мясом",
+        "TR": "Kuşbaşılı Pide",
+        "UZ": "To'g'ralgan go'shtli pide"
+      },
+      "description": {
+        "EN": "Delicious kuşbaşılı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с мясом, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kuşbaşılı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli to'g'ralgan go'shtli pide."
+      },
+      "price": 92000,
+      "spicy": 0,
+      "image": "55 Kuşbaşılı pide  пиде с мяcом.jpg"
+    },
+    {
+      "id": "pd7",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Ballı ve Fıstıklı Pide",
+        "RU": "Пиде с мёдом и фисташками",
+        "TR": "Ballı ve Fıstıklı Pide",
+        "UZ": "Asalli va pistali pide"
+      },
+      "description": {
+        "EN": "Delicious ballı ve fıstıklı pide prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пиде с мёдом и фисташками, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis ballı ve fıstıklı pide.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli asalli va pistali pide."
+      },
+      "price": 125000,
+      "spicy": 0,
+      "image": "54_balli_ve_fistikli_pide_пиде_с_мёдом_и_фисташками.jpg"
+    },
+    {
+      "id": "pz1",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Tavukli Pizza",
+        "RU": "Пицца куриная",
+        "TR": "Tavukli Pizza",
+        "UZ": "Tovuqli pitsa"
+      },
+      "description": {
+        "EN": "Delicious tavukli pizza prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца куриная, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis tavukli pizza.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli tovuqli pitsa."
+      },
+      "price": 138000,
+      "spicy": 0,
+      "image": "91 tavuk pirzola куриная пирзола.jpg"
+    },
+    {
+      "id": "pz2",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Sebzeli Pizza",
+        "RU": "Пицца овощная",
+        "TR": "Sebzeli Pizza",
+        "UZ": "Sabzavotli pitsa"
+      },
+      "description": {
+        "EN": "Delicious sebzeli pizza prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца овощная, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis sebzeli pizza.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli sabzavotli pitsa."
+      },
+      "price": 125000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "pz3",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Kazlar Pizza",
+        "RU": "Пицца с казы",
+        "TR": "Kazlar Pizza",
+        "UZ": "Qazili pitsa"
+      },
+      "description": {
+        "EN": "Delicious kazlar pizza prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца с казы, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis kazlar pizza.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli qazili pitsa."
+      },
+      "price": 195000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "pz4",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Pizza Margarita",
+        "RU": "Пицца Маргарита",
+        "TR": "Pizza Margarita",
+        "UZ": "Margarita pitsa"
+      },
+      "description": {
+        "EN": "Delicious pizza margarita prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца маргарита, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pizza margarita.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli margarita pitsa."
+      },
+      "price": 121000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "pz5",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Lahmacun",
+        "RU": "Лахмаджун",
+        "TR": "Lahmacun",
+        "UZ": "Lahmajun"
+      },
+      "description": {
+        "EN": "Delicious lahmacun prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо лахмаджун, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis lahmacun.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli lahmajun."
+      },
+      "price": 55,
+      "spicy": 0,
+      "image": "59 lahmacun  лахмаджун.jpg"
+    },
+    {
+      "id": "pz6",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Pizza Pepperoni",
+        "RU": "Пицца Пепперони",
+        "TR": "Pizza Pepperoni",
+        "UZ": "Pepperoni pitsa"
+      },
+      "description": {
+        "EN": "Delicious pizza pepperoni prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца пепперони, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pizza pepperoni.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli pepperoni pitsa."
+      },
+      "price": 121000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "pz7",
+      "categoryId": "pide",
+      "title": {
+        "EN": "Pizza Istanbul",
+        "RU": "Пицца Истанбул",
+        "TR": "Pizza Istanbul",
+        "UZ": "Istanbul pitsa"
+      },
+      "description": {
+        "EN": "Delicious pizza istanbul prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо пицца истанбул, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis pizza istanbul.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli istanbul pitsa."
+      },
+      "price": 156000,
+      "spicy": 0,
+      "image": "1 istanbul  истанбул.jpg"
+    },
+    {
+      "id": "ff1",
+      "categoryId": "fast_food",
+      "title": {
+        "EN": "Döner Dürüm",
+        "RU": "Мясной дурум",
+        "TR": "Döner Dürüm",
+        "UZ": "Go'shtli donar durum"
+      },
+      "description": {
+        "EN": "Delicious döner dürüm prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясной дурум, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis döner dürüm.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli donar durum."
+      },
+      "price": 96000,
+      "spicy": 0,
+      "image": "70 doner durum  мясной дурум.jpg"
+    },
+    {
+      "id": "ff2",
+      "categoryId": "fast_food",
+      "title": {
+        "EN": "Döner Sandviç",
+        "RU": "Мясной сендвич",
+        "TR": "Döner Sandviç",
+        "UZ": "Go'shtli donar sendvich"
+      },
+      "description": {
+        "EN": "Delicious döner sandviç prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо мясной сендвич, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis döner sandviç.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli go'shtli donar sendvich."
+      },
+      "price": 92000,
+      "spicy": 0,
+      "image": "69 doner sandviÇ  мясной сендвич.jpg"
+    },
+    {
+      "id": "brd1",
+      "categoryId": "bread",
+      "title": {
+        "EN": "Afgan Ekmeği",
+        "RU": "Афганский хлеб",
+        "TR": "Afgan Ekmeği",
+        "UZ": "Afgan noni"
+      },
+      "description": {
+        "EN": "Delicious afgan ekmeği prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо афганский хлеб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis afgan ekmeği.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli afgan noni."
+      },
+      "price": 32000,
+      "spicy": 0,
+      "image": "68 ekmek Турецкий хлеб.jpg"
+    },
+    {
+      "id": "brd2",
+      "categoryId": "bread",
+      "title": {
+        "EN": "Ekmek",
+        "RU": "Турецкий хлеб",
+        "TR": "Ekmek",
+        "UZ": "Turk noni"
+      },
+      "description": {
+        "EN": "Delicious ekmek prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо турецкий хлеб, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis ekmek.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli turk noni."
+      },
+      "price": 9000,
+      "spicy": 0,
+      "image": "68 ekmek Турецкий хлеб.jpg"
+    },
+    {
+      "id": "brd3",
+      "categoryId": "bread",
+      "title": {
+        "EN": "Şişme Lavaş",
+        "RU": "Хлеб пуф",
+        "TR": "Şişme Lavaş",
+        "UZ": "Puf noni"
+      },
+      "description": {
+        "EN": "Delicious şişme lavaş prepared fresh using traditional methods.",
+        "RU": "Вкусное блюдо хлеб пуф, приготовленное по оригинальному рецепту.",
+        "TR": "Geleneksel yöntemlerle taze hazırlanan nefis şişme lavaş.",
+        "UZ": "An'anaviy usulda tayyorlangan lazzatli puf noni."
+      },
+      "price": 32000,
+      "spicy": 0,
+      "image": "68 ekmek Турецкий хлеб.jpg"
+    },
+    {
+      "id": "des1",
+      "categoryId": "dessert",
+      "title": {
+        "EN": "Turkish Baklava",
+        "RU": "Турецкая Баклава",
+        "TR": "Türk Baklavası",
+        "UZ": "Turk baqlavasi"
+      },
+      "description": {
+        "EN": "Crispy sweet pastry made of layers of filo filled with chopped pistachios.",
+        "RU": "Хрустящая сладкая выпечка из слоеного теста с фисташками.",
+        "TR": "Fıstıklı çıtır geleneksel Türk baklavası.",
+        "UZ": "Fistali qarsildoq an'anaviy turk baqlavasi."
+      },
+      "price": 120000,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "des2",
+      "categoryId": "dessert",
+      "title": {
+        "EN": "Baked Rice Pudding (Sütlaç)",
+        "RU": "Сютлач в печи",
+        "TR": "Fırın Sütlaç",
+        "UZ": "Pechda pishirilgan sutlach"
+      },
+      "description": {
+        "EN": "Traditional baked Turkish rice pudding with a caramelized top.",
+        "RU": "Традиционный нежный турецкий рисовый пудинг с карамельной корочкой.",
+        "TR": "Üzeri kızarmış geleneksel fırın sütlaç.",
+        "UZ": "Ustki qismi qizartirib pishirilgan an'anaviy sutli guruchli puding."
+      },
+      "price": 5,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "des3",
+      "categoryId": "dessert",
+      "title": {
+        "EN": "Künefe",
+        "RU": "Кюнефе",
+        "TR": "Künefe",
+        "UZ": "Kunefe"
+      },
+      "description": {
+        "EN": "Crisp cheese-filled dessert made with shredded wheat, soaked in sweet syrup.",
+        "RU": "Хрустящий десерт из кадаифа с тягучим сыром внутри, пропитанный сладким сиропом.",
+        "TR": "Sıcak ve çıtır, eritilmiş peynirli geleneksel künefe.",
+        "UZ": "Issiq holda tortiladigan, ichida erigan pishlog'i bo'lgan shirin siropli kunefe."
+      },
+      "price": 7.5,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "drk1",
+      "categoryId": "drinks",
+      "title": {
+        "EN": "Ayran",
+        "RU": "Айран",
+        "TR": "Ayran",
+        "UZ": "Ayron"
+      },
+      "description": {
+        "EN": "Refreshing traditional salted yogurt drink.",
+        "RU": "Освежающий турецкий кисломолочный напиток айран.",
+        "TR": "Soğuk ve köpüklü geleneksel ayran.",
+        "UZ": "Muzdek va ko'pikli an'anaviy turk ayroni."
+      },
+      "price": 2,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "drk2",
+      "categoryId": "drinks",
+      "title": {
+        "EN": "Turkish Tea",
+        "RU": "Турецкий чай",
+        "TR": "Türk Çayı",
+        "UZ": "Turk choyi"
+      },
+      "description": {
+        "EN": "Freshly brewed traditional Turkish black tea.",
+        "RU": "Свежезаваренный крепкий турецкий черный чай.",
+        "TR": "Taze demlenmiş geleneksel Türk çayı.",
+        "UZ": "Yangi damlangan an'anaviy turk qora choyi."
+      },
+      "price": 1.5,
+      "spicy": 0,
+      "image": "logo.png"
+    },
+    {
+      "id": "drk3",
+      "categoryId": "drinks",
+      "title": {
+        "EN": "Homemade Lemonade",
+        "RU": "Домашний лимонад",
+        "TR": "Ev Yapımı Limonata",
+        "UZ": "Qo'lda tayyorlangan limonad"
+      },
+      "description": {
+        "EN": "Fresh homemade lemonade with mint.",
+        "RU": "Свежий домашний лимонад с мятой.",
+        "TR": "Nane ve limon eşliğinde ev yapımı taze limonata.",
+        "UZ": "Yalpiz va limon qo'shilgan uy sharoitida tayyorlangan sersuv limonad."
+      },
+      "price": 3,
+      "spicy": 0,
+      "image": "logo.png"
+    }
+  ]
+}
